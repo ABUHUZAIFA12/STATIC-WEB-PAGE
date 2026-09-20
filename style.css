@@ -322,7 +322,8 @@ nav .header{
     width: 100%;
     height: calc(50% - 15px);
     display: flex;
-    background-color: rgb(240, 241, 241);
+    gap: 20px;
+    background-color:white;
     border-radius: 20px;
 }
 .box .box1-img-div{
@@ -442,6 +443,137 @@ nav .header{
     justify-content: center;
 }
 .box .book{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.cont{
+    padding: 20px 30px;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(240, 241, 241);
+    border-radius: 20px;
+}
+.cont .cont1-img-div{
+    padding: 8px 8px;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://plus.unsplash.com/premium_photo-1661963239507-7bdf41a5e66b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHV4dXJ5JTIwYmVkJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+.cont1-txt{
+    padding: 5px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    background-color: white;
+    border-radius: 40px;
+}
+.cont1-txt i{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cont2-txt .divi h1{
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.cont2-txt .divi h4{
+    opacity: 0.7;
+}
+.cont2-txt .host{
+    height: 270px;
+    display: flex;
+    padding-top: 240px;
+    
+    gap: 5px;
+}
+.host i{
+    width: 20px;
+    height: 20px;
+    border: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont3-txt .basic{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 90px;
+}
+.cont3-txt .infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont3-txt .info-n{
+    font-weight: 200;
+    font-size: 20px;
+    height: 250px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cont3-txt .info-d{
+    opacity: 0.8;
+    height: 250px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cont4-txt .icon{
+    height: 230px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.u-part{
+    display: flex;
+    height: 250px;
+    width: 350px;
+}
+.icon i{
+    font-size: 60px;
+}
+.features{
+    padding-left: 20px;
+    height: 230px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.amn p{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.cln p{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.cont4-txt .bnts{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont .book{
     width: 250px;
     height: 50px;
     background-color: black;
