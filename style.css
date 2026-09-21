@@ -265,8 +265,7 @@ nav .header{
    padding: 10px 10px;
 }
 .simple-txt{
-    
-    padding: 60px;
+    padding-top: 120px;
     width: 100%;
     height: 50px;
     display: flex;
@@ -276,7 +275,7 @@ nav .header{
     opacity: 0.7;
 }
 .acc{
-    gap: 60px;
+    padding-top: 60px;
     width: 100%;
     height: 100px;
     font-size: 70px;
@@ -286,7 +285,7 @@ nav .header{
     justify-content: center;
 }
 .types{
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
     height: 100px;
     background-color: rgb(240, 241, 241);
@@ -363,7 +362,7 @@ nav .header{
 .box2-txt .host{
     height: 270px;
     display: flex;
-    padding-top: 240px;
+    padding-top: 200px;
     
     gap: 5px;
 }
@@ -381,7 +380,7 @@ nav .header{
 .box3-txt .basic{
     font-size: 30px;
     font-weight: 600;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 .box3-txt .infos{
     display: flex;
@@ -494,7 +493,7 @@ nav .header{
 .cont2-txt .host{
     height: 270px;
     display: flex;
-    padding-top: 240px;
+    padding-top: 200px;
     
     gap: 5px;
 }
@@ -512,7 +511,7 @@ nav .header{
 .cont3-txt .basic{
     font-size: 30px;
     font-weight: 600;
-    margin-top: 90px;
+    margin-top: 20px;
 }
 .cont3-txt .infos{
     display: flex;
